@@ -7,9 +7,9 @@ import requests
 import json
 import time
 
-ID = 'AcxJ7pqDEeRA8kcDUOTPS'
-SECRET = '7tOA7yRcLFb40YCCoXq0ccUMtD4ZZJarCgNjOrtL'
-LOCATION = 'eckert,co'
+ID = ''
+SECRET = ''
+LOCATION = ''
 
 DELAY = 30 * 60 # Updates every 30 minutes
 CURRENTURL = 'https://api.aerisapi.com/conditions/{location}?format=json&plimit=1&fields=periods.tempF,periods.humidity,periods.windSpeedMPH,periods.windDir,periods.weather,periods.icon&client_id={id}&client_secret={secret}'
